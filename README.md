@@ -1,6 +1,6 @@
 # 🚀 Autonomous SDR - Showcase App
 
-An AI-driven hyper-contextual Sales Development Representative built with **FastAPI** (Backend) and **Next.js** (Frontend). 
+An AI-driven 5 Agent hyper-contextual Sales Development Representative built with **FastAPI** (Backend) and **Next.js** (Frontend). 
 
 This application orchestrates multi-agent pipelines starting from lead generation, campaign analysis, to real-time analytics.
 
@@ -34,10 +34,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
----
-
-## 🌍 Production Deployment 
-This project is pre-configured for **Dockerized production deployment** (specifically on Platforms like Render / Railway / Vercel).
-
-👉 Refer to **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** for step-by-step cloud setup instructions.
