@@ -64,6 +64,15 @@ async def websocket_endpoint(websocket: WebSocket, campaign_id: str):
         manager.disconnect(websocket, campaign_id)
 
 
+@app.get("/")
+async def read_root():
+    return {
+        "message": "Welcome to Autonomous SDR API",
+        "status": "online",
+        "docs": "/docs"
+    }
+
+
 @app.get("/api/health")
 async def health_check():
     return {"status": "healthy", "version": "1.0.0"}
