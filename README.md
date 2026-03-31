@@ -321,4 +321,6 @@ MIT — see [LICENSE](LICENSE) for details.
 
 *Built to be bootstrapped. Designed to scale. Ready to charge for on Day 1.*
 
+*Last updated: 2026-03-30*
+
 </div>
