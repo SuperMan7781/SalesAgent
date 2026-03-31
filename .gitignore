@@ -1,0 +1,21 @@
+# Backend
+backend/venv/
+backend/.venv/
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# General
+.vscode/
+.DS_Store
+
+# Guides and Plans
+MVP_BUILD_GUIDE_PART1.md
+MVP_BUILD_GUIDE_PART2.md
+MVP_BUILD_GUIDE_PART3.md
+autonomous_sdr_plan.md
