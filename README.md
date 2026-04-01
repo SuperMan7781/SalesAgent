@@ -74,8 +74,9 @@ CSV Upload → [Agent 1: Researcher] → [Agent 2: Gatekeeper] → [Agent 3: Str
 | **Data Enrichment** | Apollo.io + Proxycurl + Exa.ai | Company data, LinkedIn profiles, real-time news |
 | **Email Delivery** | Smartlead.ai | Multi-inbox rotation, warmup, deliverability monitoring |
 | **Email Verification** | ZeroBounce / NeverBounce | Pre-send validation, catch-all detection |
+| **CRM Integration** | HubSpot API (OAuth 2.0) | Two-way sync: contacts, email activities, deal creation |
 | **Queue & Rate Limiting** | Upstash (Serverless Redis) + Celery | API rate compliance, job orchestration at scale |
-| **Infrastructure** | AWS ECS Fargate (auto-scaling) | Scales 2→50 containers in 90s for burst workloads |
+| **Infrastructure** | Railway (MVP) → AWS ECS Fargate (scale) | Auto-scaling containers for burst workloads |
 | **Secrets** | AWS Secrets Manager | Encrypted OAuth tokens and API keys |
 
 ---
@@ -291,7 +292,7 @@ docker run -p 8000:8000 --env-file .env autonomous-sdr-backend
 - [ ] Multi-step follow-up sequences (Day 3, 7 auto-follow-ups)
 - [ ] Domain warmup automation & timezone-aware send windows
 - [ ] A/B testing engine (angle × industry × seniority heatmap)
-- [ ] HubSpot CRM two-way sync
+- [x] HubSpot CRM two-way sync (OAuth 2.0 + contact push + email activity logging + deal creation)
 - [ ] Tone learning via pgvector (embed winning emails for style matching)
 
 **Phase 3 (Weeks 11–16) — Scale & Moat**
@@ -321,6 +322,6 @@ MIT — see [LICENSE](LICENSE) for details.
 
 *Built to be bootstrapped. Designed to scale. Ready to charge for on Day 1.*
 
-*Last updated: 2026-03-30*
+*Last updated: 2026-04-01*
 
 </div>

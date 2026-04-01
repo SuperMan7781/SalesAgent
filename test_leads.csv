@@ -2,3 +2,8 @@ first_name,last_name,email,company,title,linkedin_url
 Sarah,Chen,sarah@acmecorp.com,Acme Corp,VP Sales,https://linkedin.com/in/sarahchen
 Mike,Patel,mike@techstartup.io,TechStartup,CEO,https://linkedin.com/in/mikepatel
 Lisa,Wang,lisa@growthco.com,GrowthCo,Head of Growth,https://linkedin.com/in/lisawang
+first_name,last_name,email,company,title,linkedin_url
+Raymond,Thomas,raymond.thomas@chisystems.com,ChiSystems,Head of Growth,https://linkedin.com/in/raymondthomas449
+Eric,King,eric.king@chisystems.com,ChiSystems,Software Engineer,https://linkedin.com/in/ericking18
+Rebecca,Adams,rebecca.adams@zetaindustries.com,ZetaIndustries,Director of Engineering,https://linkedin.com/in/rebeccaadams698
+Jerry,King,jerry.king@omegacorp.com,OmegaCorp,Sales Manager,https://linkedin.com/in/jerryking537
